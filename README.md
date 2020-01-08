@@ -9,6 +9,7 @@ git clone https://github.com/kawax/laravel-freee-sdk-project
 cd laravel-freee-sdk-project
 composer install
 cp .env.example .env
+php artisan key:generate
 #edit .env
 touch database/database.sqlite
 php artisan migrate
