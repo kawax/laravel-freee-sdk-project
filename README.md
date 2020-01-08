@@ -1,4 +1,6 @@
+# Freee SDK for Laravel demo project
 
+[![Build Status](https://travis-ci.com/kawax/laravel-freee-sdk-project.svg?branch=master)](https://travis-ci.com/kawax/laravel-freee-sdk-project)
 
 https://github.com/kawax/laravel-freee-sdk
 
