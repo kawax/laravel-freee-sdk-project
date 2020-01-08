@@ -35,4 +35,7 @@
         <server name="SESSION_DRIVER" value="array"/>
         <server name="FREEE_COMPANY_ID" value="0"/>
     </php>
+    <logging>
+        <log type="coverage-clover" target="build/logs/clover.xml"/>
+    </logging>
 </phpunit>
