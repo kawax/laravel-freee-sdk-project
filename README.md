@@ -5,7 +5,8 @@
 https://github.com/kawax/laravel-freee-sdk
 
 ```
-git clone https://github.com/kawax/laravel-freee-sdk-project cd $_
+git clone https://github.com/kawax/laravel-freee-sdk-project
+cd laravel-freee-sdk-project
 composer install
 cp .env.example .env
 #edit .env
