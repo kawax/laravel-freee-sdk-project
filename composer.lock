@@ -999,16 +999,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "1.1.2",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "772e03fa9c6477ef5ef2d154fefd8a2a8d8ed03c"
+                "reference": "2533c389fd2a7573d4f7be279b1c33cf941c8dfc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/772e03fa9c6477ef5ef2d154fefd8a2a8d8ed03c",
-                "reference": "772e03fa9c6477ef5ef2d154fefd8a2a8d8ed03c",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/2533c389fd2a7573d4f7be279b1c33cf941c8dfc",
+                "reference": "2533c389fd2a7573d4f7be279b1c33cf941c8dfc",
                 "shasum": ""
             },
             "require": {
@@ -1020,7 +1020,7 @@
             },
             "require-dev": {
                 "cebe/markdown": "~1.0",
-                "commonmark/commonmark.js": "0.29.0",
+                "commonmark/commonmark.js": "0.29.1",
                 "erusev/parsedown": "~1.0",
                 "ext-json": "*",
                 "michelf/php-markdown": "~1.4",
@@ -1039,7 +1039,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2-dev"
+                    "dev-master": "1.3-dev"
                 }
             },
             "autoload": {
@@ -1066,7 +1066,7 @@
                 "markdown",
                 "parser"
             ],
-            "time": "2019-12-10T02:55:03+00:00"
+            "time": "2020-01-09T22:41:09+00:00"
         },
         {
             "name": "league/commonmark-ext-table",
@@ -2041,16 +2041,16 @@
         },
         {
             "name": "revolution/laravel-freee-sdk",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-freee-sdk.git",
-                "reference": "b905abcae5d5daecd2803628078b863d450052bd"
+                "reference": "d49bc6563ef31db2af1c15ef58815a8fc9a9d244"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-freee-sdk/zipball/b905abcae5d5daecd2803628078b863d450052bd",
-                "reference": "b905abcae5d5daecd2803628078b863d450052bd",
+                "url": "https://api.github.com/repos/kawax/laravel-freee-sdk/zipball/d49bc6563ef31db2af1c15ef58815a8fc9a9d244",
+                "reference": "d49bc6563ef31db2af1c15ef58815a8fc9a9d244",
                 "shasum": ""
             },
             "require": {
@@ -2093,7 +2093,7 @@
                 "freee-accounting",
                 "laravel"
             ],
-            "time": "2020-01-08T07:08:35+00:00"
+            "time": "2020-01-11T06:46:41+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

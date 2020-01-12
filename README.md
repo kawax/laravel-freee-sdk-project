@@ -12,7 +12,17 @@ cd laravel-freee-sdk-project
 composer install
 cp .env.example .env
 php artisan key:generate
-#edit .env
+```
+
+edit .env
+
+```
+FREEE_ACCOUNTING_CLIENT_ID=
+FREEE_ACCOUNTING_CLIENT_SECRET=
+FREEE_ACCOUNTING_REDIRECT=
+```
+
+```
 touch database/database.sqlite
 php artisan migrate
 php artisan serve
