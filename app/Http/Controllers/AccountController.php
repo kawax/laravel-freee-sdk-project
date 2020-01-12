@@ -16,26 +16,26 @@ class AccountController extends Controller
      *
      * @return \Illuminate\View\View
      */
-    public function me()
-    {
-        $user = Auth::user();
-
-        $config = Configuration::getDefaultConfiguration()->setAccessToken($user->token);
-
-        $companiesApiInstance = new CompaniesApi(null, $config);
-        $companiesResponse = $companiesApiInstance->getCompanies();
-
-        $dealsApiInstance = new DealsApi(null, $config);
-        $targetCompanyId = $companiesResponse->getCompanies()[0]->getId();
-        $limit = 5;
-        $dealsResponse = $dealsApiInstance->getDeals(
-            $targetCompanyId,
-            null, null, null, null, null, null, null, null, null, null, null, null,
-            $limit);
-        $deals = $dealsResponse->getDeals();
-
-        return view('account.me', compact('user', 'deals'));
-    }
+//    public function me()
+//    {
+//        $user = Auth::user();
+//
+//        $config = Configuration::getDefaultConfiguration()->setAccessToken($user->token);
+//
+//        $companiesApiInstance = new CompaniesApi(null, $config);
+//        $companiesResponse = $companiesApiInstance->getCompanies();
+//
+//        $dealsApiInstance = new DealsApi(null, $config);
+//        $targetCompanyId = $companiesResponse->getCompanies()[0]->getId();
+//        $limit = 5;
+//        $dealsResponse = $dealsApiInstance->getDeals(
+//            $targetCompanyId,
+//            null, null, null, null, null, null, null, null, null, null, null, null,
+//            $limit);
+//        $deals = $dealsResponse->getDeals();
+//
+//        return view('account.me', compact('user', 'deals'));
+//    }
 
 
     /**
